@@ -34,6 +34,8 @@ Route::post('lot/map', 'MapController@show');
 Route::get('/config','ConfigController@index')->name('config.index');
 Route::post('/config','ConfigController@store')->name('config.store');
 
+Route::resource('parking','ParkingController')->name('parking');
+
 
 
 
