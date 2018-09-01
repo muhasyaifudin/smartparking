@@ -17,7 +17,6 @@ class ConfigController extends Controller
         $config = Config::all()->first();
 
         return view('config.config', ['config'=>$config]);
-        
     }
 
     /**
