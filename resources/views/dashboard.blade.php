@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-Dashboard
+Dashboard Smart Parking
 @endsection
 
 @section('content')
