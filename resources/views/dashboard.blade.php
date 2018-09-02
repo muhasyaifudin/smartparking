@@ -7,6 +7,3 @@ Dashboard
 @section('content')
 
 @endsection
-
-
-
